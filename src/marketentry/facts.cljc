@@ -11,13 +11,7 @@
           :rep-provenance "https://www.eprocure.gov.bd/"
           :corporate-number-owner-authority "RJSC / NBR"
           :corporate-number-legal-basis "Company registration / TIN"
-          :corporate-number-provenance "https://www.roc.gov.bd/"}
-   "USA" {:name "United States" :owner-authority "GSA/SAM.gov" :legal-basis "FAR" :national-spec "SAM.gov" :provenance "https://sam.gov/"
-          :required-evidence ["EIN record" "SAM.gov registration record" "State business registration record" "SAM UEI verification record"]}
-   "IND" {:name "India" :owner-authority "GeM" :legal-basis "GFR" :national-spec "GeM" :provenance "https://gem.gov.in/"
-          :required-evidence ["GSTIN/PAN record" "GeM seller registration" "MCA extract" "Authorized-representative record"]}
-   "PAK" {:name "Pakistan" :owner-authority "PPRA" :legal-basis "PPRA Ordinance" :national-spec "e-PADS" :provenance "https://www.ppra.org.pk/"
-          :required-evidence ["SECP/NTN record" "e-PADS registration" "SECP extract" "Authorized-representative record"]}})
+          :corporate-number-provenance "https://www.roc.gov.bd/"}})
 
 (defn spec-basis [iso3] (get catalog iso3))
 (defn coverage
