@@ -1,0 +1,45 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/statute/facts.cljc `statute.facts/catalog` (ADR-2607141700 Wave 0).
+;; Same shape as cloud-itonami-iso3166-ind's data/datascript-tx.edn.
+;; Regenerated from the catalog, never hand-edited independently of it.
+
+[#:statute{:id "bgd.companies-act-1994"
+           :title "The Companies Act, 1994"
+           :jurisdiction "BGD"
+           :kind :law
+           :law-number "Act No. 18 of 1994 (bdlaws.minlaw.gov.bd's own heading: '১৯৯৪ সনের ১৮ নং আইন'); RJSC's own official laws listing (roc.gov.bd/pages/laws) independently lists this Act with the same law_no (18) and a 12-09-1994 publish date; administered by the Registrar of Joint Stock Companies and Firms (RJSC), extending marketentry.facts's existing 'RJSC / NBR' / 'Company registration / TIN' citation. HONEST NOTE: the PDF RJSC's own site links from this same listing entry was verified to be mismatched (an unrelated 2022 Trade Organisations Ordinance amendment gazette) -- this entry cites bdlaws.minlaw.gov.bd's own verified text instead, see namespace docstring"
+           :url "http://bdlaws.minlaw.gov.bd/act-788.html"
+           :url-provenance :official-bdlaws-minlaw-gov-bd
+           :enacted-date "1994-09-12"
+           :retrieved-at "2026-07-23"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "bgd.labour-act-2006"
+           :title "The Bangladesh Labour Act, 2006 (as amended 2013, 2018 and 2026)"
+           :jurisdiction "BGD"
+           :kind :law
+           :law-number "Act No. 42 of 2006 (base Act, 'বাংলাদেশ শ্রম আইন-২০০৬'); Amendment Act No. 42 of 2013 (22-07-2013); Amendment Act No. 58 of 2018 (14-11-2018); Amendment Act No. 43 of 2026 (17-05-2026) -- all four listed directly on DIFE's own official 'laws' table (title/law_no/publish_date columns); administered by the Department of Inspection for Factories and Establishments (DIFE), Ministry of Labour and Employment"
+           :url "https://dife.gov.bd/pages/laws"
+           :url-provenance :official-dife-gov-bd
+           :enacted-date "2006-10-12"
+           :retrieved-at "2026-07-23"
+           :topic [:labor]}
+ #:statute{:id "bgd.income-tax-act-2023"
+           :title "The Income Tax Act, 2023"
+           :jurisdiction "BGD"
+           :kind :law
+           :law-number "Act No. XII of 2023 (own s.1: 'This Act may be called the Income-tax Act, 2023'; own s.261(1)-(2) TIN-registration duty); administered by the National Board of Revenue (NBR), extending marketentry.facts's existing 'RJSC / NBR' / TIN citation; repeals the former Income-tax Ordinance, 1984 (own preamble). Independently corroborated via bdlaws.minlaw.gov.bd's own heading '২০২৩ সনের ১২ নং আইন'. HONEST NOTE: exact original 2023 assent day/month not independently confirmed this session (only Act No./year and s.1's own 'It shall come into force at once')"
+           :url "https://nbr.gov.bd/uploads/acts/Income_tax_act_2023.pdf"
+           :url-provenance :official-nbr-gov-bd
+           :enacted-date "2023 (exact day/month not independently confirmed this session; s.1(2) own text: 'It shall come into force at once')"
+           :retrieved-at "2026-07-23"
+           :topic [:tax]}
+ #:statute{:id "bgd.personal-data-protection-act-2026"
+           :title "The Personal Data Protection Act, 2026"
+           :jurisdiction "BGD"
+           :kind :law
+           :law-number "Act No. 63 of 2026 (own Gazette header: passed by Parliament and received the President's assent 27 Chaitra 1432 / 10 April 2026, 'Act No. 63 of the year 2026'); independently corroborated via bdlaws.minlaw.gov.bd's own heading '২০২৬ সনের ৬৩ নং আইন' and the ICT Division's (ictd.gov.bd) own 'laws' listing. HONEST UPDATE: this catalog family's brief assumed Bangladesh had no comprehensive data-protection law in force (a long-pending draft) -- this session's direct fetch shows that gap has closed via this 2026 Act. HONEST GAP: full substantive body text not independently OCR'd/decoded this session (legacy-font-encoded PDF); only enactment/Act-No/date and one legible loanword ('Chief Data Officer', a role the Act establishes) independently confirmed, see namespace docstring"
+           :url "http://bdlaws.minlaw.gov.bd/act-1692.html"
+           :url-provenance :official-bdlaws-minlaw-gov-bd
+           :enacted-date "2026-04-10"
+           :retrieved-at "2026-07-23"
+           :topic [:data-protection :privacy]}]
