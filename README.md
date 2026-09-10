@@ -10,14 +10,14 @@ AGPL-3.0-or-later.
 
 ## Statute catalog
 
-Alongside `src/marketentry/facts.cljc` (public-procurement / e-GP
-market-entry scope), this repo carries `src/statute/facts.cljc` — a
+Alongside `src/marketentry/facts.kotoba` (public-procurement / e-GP
+market-entry scope), this repo carries `src/statute/facts.kotoba` — a
 second, orthogonal catalog of general national statutes an operator
 must track for ongoing compliance (ADR-2607141700,
 `cloud-itonami-compliance-fact-federation`), mirroring
 `cloud-itonami-iso3166-ind`/`-lka`/`-npl`'s `statute.facts`:
 
-- `src/statute/facts.cljc` — the catalog: The Companies Act, 1994 (Act
+- `src/statute/facts.kotoba` — the catalog: The Companies Act, 1994 (Act
   No. 18 of 1994, RJSC — extends `marketentry.facts`'s existing "RJSC /
   NBR" citation), the Bangladesh Labour Act, 2006 as amended 2013/2018/
   2026 (DIFE, Ministry of Labour and Employment), the Income Tax Act,
@@ -43,7 +43,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Bangladesh:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.kotoba` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
